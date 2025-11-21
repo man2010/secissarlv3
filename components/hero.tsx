@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, CheckCircle2, Play, Volume2, VolumeX } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 import { useState, useRef } from "react"
 
 export function Hero() {
@@ -79,7 +80,7 @@ export function Hero() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button size="lg" variant="outline" asChild className="h-14 font-semibold">
-                <a href="/contact">Nous contacter</a>
+                <Link href="/contact">Nous contacter</Link>
               </Button>
             </div>
           </div>
