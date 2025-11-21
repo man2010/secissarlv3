@@ -78,13 +78,8 @@ export function Hero() {
                 Découvrir nos services
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                onClick={() => scrollToSection("contact")}
-                className="h-14 font-semibold"
-              >
-                Nous contacter
+              <Button size="lg" variant="outline" asChild className="h-14 font-semibold">
+                <a href="/contact">Nous contacter</a>
               </Button>
             </div>
           </div>
